@@ -1,6 +1,6 @@
 ﻿body{
     font-family: Arial;
-    background:#0f0f0f; /* nền đen YouTube */
+    background:#0f0f0f; 
     color:white;
 }
 
@@ -8,14 +8,14 @@
     width:420px;
     margin:50px auto;
     padding:20px;
-    background:#1c1c1c; /* khung xám đậm */
+    background:#1c1c1c; 
     border-radius:10px;
     box-shadow:0 0 15px rgba(0,0,0,0.8);
 }
 
 h2{
     text-align:center;
-    color:#ff0000; /* đỏ YouTube */
+    color:#ff0000; 
 }
 
 label{
