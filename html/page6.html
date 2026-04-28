@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Item</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+<script>
+const newDiv = document.createElement("div");
+newDiv.setAttribute("class", "product-item");
+
+const newImage = document.createElement("div");
+newImage.setAttribute("class", "product-image");
+
+const newImageNode = document.createElement("img");
+newImageNode.src = "https://trithuc.itrithuc.vn/vn-uploads/articles/tool/buom-morpho-didius-1.jpg";
+newImageNode.alt = "Butterfly Morpho";
+
+newImage.appendChild(newImageNode);
+
+const newInfo = document.createElement("div");
+newInfo.setAttribute("class", "product-info");
+
+const name = document.createElement("p");
+name.appendChild(document.createTextNode("Bướm Morpho"));
+
+const price = document.createElement("p");
+price.appendChild(document.createTextNode("1$"));
+
+const detail = document.createElement("p");
+detail.appendChild(document.createTextNode("Blue Morpho Butterfly"));
+
+newInfo.appendChild(name);
+newInfo.appendChild(price);
+newInfo.appendChild(detail);
+
+newDiv.appendChild(newImage);
+newDiv.appendChild(newInfo);
+
+document.body.appendChild(newDiv);
+</script>
+
+</body>
+</html>
